@@ -15,12 +15,13 @@ h2 {
     border: 3px solid black;
     width: min-content;
     font-size: 30px;
+    font-family: Josefin Sans
 }
 
 p {
     font-size: 16px;
     font-family: Josefin Sans;
-    display: block;
+    color: hsl(0, 36%, 70%);
     width: 40vh;
     height: 5vh;
     border: 3px solid magenta;
@@ -28,12 +29,19 @@ p {
 
 body {
     background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%)) no-repeat;
-    border: 4px solid rebeccapurple;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.content {
 
 }
 
-img {
-    position: relative;
-    left: 50%; 
-    border: 4px solid  burlywood;
+.image {
+
+}
+
+.email {
+    color: hsl(0, 6%, 24%);
 }
