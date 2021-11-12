@@ -11,12 +11,12 @@ body {
 }
 
 .content {
-    border: 1px solid orange;
+    padding-left: 15em;
+    padding-top: 8em;
 }
 
 .coming-soon {
     display: block;
-    border: 3px solid black;
     width: min-content;
     font-size: 60px;
     letter-spacing: 15px;
@@ -34,14 +34,13 @@ body {
     width: 40vh;
     height: 8vh;
     line-height: 1.5;
-    border: 3px solid magenta;
 }
 
 .email {
     color: hsl(0, 6%, 24%);
 }
 
-.image {
+ .image {
     background-image: url(base-apparel-coming-soon-master/images/hero-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
